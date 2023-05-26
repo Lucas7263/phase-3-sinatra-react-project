@@ -18,10 +18,10 @@ ActiveRecord::Schema.define(version: 2023_05_24_224015) do
     t.integer "age"
     t.string "description"
     t.string "dog_image"
-    t.integer "shelter_id"
+    t.integer "spa_id"
   end
 
-  create_table "shelters", force: :cascade do |t|
+  create_table "spas", force: :cascade do |t|
     t.string "name"
     t.string "image"
     t.string "location"

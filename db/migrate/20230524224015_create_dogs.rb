@@ -1,4 +1,4 @@
-class AllDogs < ActiveRecord::Migration[6.1]
+class CreateDogs < ActiveRecord::Migration[6.1]
   def change
     create_table :dogs do |t|
       t.string :dog_name
@@ -6,7 +6,7 @@ class AllDogs < ActiveRecord::Migration[6.1]
       t.integer :age
       t.string :description
       t.string :dog_image
-      t.integer :shelter_id
+      t.integer :spa_id
     end
   end
 end

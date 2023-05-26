@@ -1,6 +1,6 @@
-class DogShelter < ActiveRecord::Migration[6.1]
+class CreateDogSpa < ActiveRecord::Migration[6.1]
   def change
-    create_table :shelters do |t|
+    create_table :spas do |t|
       t.string :name 
       t.string :image
       t.string :location
