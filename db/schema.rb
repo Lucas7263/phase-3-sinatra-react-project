@@ -23,10 +23,11 @@ ActiveRecord::Schema.define(version: 2023_05_24_224015) do
 
   create_table "spas", force: :cascade do |t|
     t.string "name"
-    t.string "image"
     t.string "location"
     t.integer "employees"
     t.string "description"
+    t.integer "price"
+    t.string "image"
   end
 
 end
